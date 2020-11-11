@@ -1,35 +1,44 @@
 package com.stackOverf;
 
-/**
-Ahmed Abdulrazzaq
-Alac --Last Name--
-**/
+import java.util.ArrayList;
+import java.util.List;
+
+/***************************
+        Ahmed Abdulrazzaq
+        Alec Martin
+***************************/
 
 public class Main {
     public static void main(String[] args) {
         DeveloperSurvey stackOverflowSurvey = new StackOverflowSurvey();
-//        System.out.println(stackOverflowSurvey.getAverageAge());
-//        System.out.println(stackOverflowSurvey.getAverageHoursWorked());
-//        System.out.println(stackOverflowSurvey.getAverageSalary());
-//        System.out.println(stackOverflowSurvey.getPercentageUsingLanguage("python"));
-//        System.out.println(stackOverflowSurvey.getPercentageUsingLanguage("java"));
-//        System.out.println(stackOverflowSurvey.getPercentageUsingLanguage("c"));
-//        System.out.println(stackOverflowSurvey.getPercentageUsingLanguage("c#"));
+
         System.out.println("Age: " + stackOverflowSurvey.getAverageAge());
         System.out.println("Hours: " + stackOverflowSurvey.getAverageHoursWorked());
         System.out.println("Salary: " + stackOverflowSurvey.getAverageSalary());
-        System.out.println("Percent using Java: " + stackOverflowSurvey.getPercentageUsingLanguage("java"));
-        System.out.println("Percent using Python: " + stackOverflowSurvey.getPercentageUsingLanguage("Python"));
-        System.out.println("Percent using C#: " + stackOverflowSurvey.getPercentageUsingLanguage("C#"));
-        System.out.println("Percent using C: " + stackOverflowSurvey.getPercentageUsingLanguage("C"));
-        System.out.println("Percent using Swift: " + stackOverflowSurvey.getPercentageUsingLanguage("Swift"));
-        System.out.println("Percent using Kotlin: " + stackOverflowSurvey.getPercentageUsingLanguage("Kotlin"));
-        System.out.println("Percent using JavaScript: " + stackOverflowSurvey.getPercentageUsingLanguage("JavaScript"));
-        System.out.println("Percent using Java: " + stackOverflowSurvey.getPercentageUsingLanguage("HTML/CSS"));
-
-
-
-
+        System.out.print("Percent using Java: ");
+        System.out.printf("%f",stackOverflowSurvey.getPercentageUsingLanguage("java"));
+        System.out.println("");
+        System.out.print("Percent using Python: ");
+        System.out.printf("%f",stackOverflowSurvey.getPercentageUsingLanguage("Python"));
+        System.out.println("");
+        System.out.print("Percent using C#: ");
+        System.out.printf("%f",stackOverflowSurvey.getPercentageUsingLanguage("C#"));
+        System.out.println("");
+        System.out.print("Percent using C: ");
+        System.out.printf("%f",stackOverflowSurvey.getPercentageUsingLanguage("C"));
+        System.out.println("");
+        System.out.print("Percent using Swift: ");
+        System.out.printf("%f",stackOverflowSurvey.getPercentageUsingLanguage("Swift"));
+        System.out.println("");
+        System.out.print("Percent using Kotlin: ");
+        System.out.printf("%f",stackOverflowSurvey.getPercentageUsingLanguage("Kotlin"));
+        System.out.println("");
+        System.out.print("Percent using JavaScript: ");
+        System.out.printf("%f",stackOverflowSurvey.getPercentageUsingLanguage("JavaScript"));
+        System.out.println("");
+        System.out.print("Percent using HTML/CSS: ");
+        System.out.printf("%f",stackOverflowSurvey.getPercentageUsingLanguage("HTML/CSS"));
+        System.out.println("");
     }
     }
 
